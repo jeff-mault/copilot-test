@@ -1,0 +1,63 @@
+
+# Scaffolded by Mault — do not commit
+.claude/hooks/
+
+# Mault identity files — local per machine, do not commit
+.mault/audit-config.json
+.mault/sessions/
+.mault/preauth.json
+.mault/.blocked.json
+
+# Runtime and local artifacts
+.memory-layer/
+*.log
+*.tmp
+*.cache
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Language/tool caches
+node_modules/
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+.cache/
+*.tsbuildinfo
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Secrets and credentials
+.env
+.env.*
+*.env
+!.env.example
+credentials.json
+secrets.yaml
+*.pem
+*.key
+*.crt
