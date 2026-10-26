@@ -1,0 +1,7 @@
+{
+  "provider": "copilot",
+  "entryPoints": [
+    "github.copilot.chat.agent"
+  ],
+  "version": "1.1"
+}
